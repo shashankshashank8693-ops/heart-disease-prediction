@@ -97,10 +97,10 @@ if st.button("🔍 Predict", use_container_width=True, type="primary"):
     st.divider()
 
     if prediction == 1:
-        st.error(f"⚠️ High Risk of Heart Disease")
+        st.error(f"⚠️ High Risk of Heart Disease , doctor consult mado tharle")
         st.metric("Predicted Probability", f"{probability*100:.1f}%")
     else:
-        st.success(f"✅ Low Risk of Heart Disease")
+        st.success(f"✅ Low Risk of Heart Disease, maintain healthy lifestyle ok")
         st.metric("Predicted Probability", f"{probability*100:.1f}%")
 
     st.progress(float(probability))
