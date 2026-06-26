@@ -6,7 +6,7 @@ import pickle
 # ---------------------------------------------------
 # Page Config
 # ---------------------------------------------------
-st.set_page_config(page_title="Heart Disease Predictor", page_icon="❤️", layout="centered")
+st.set_page_config(page_title="Heart Disease Prediction App - ML Model", page_icon="❤️", layout="centered")
 
 # ---------------------------------------------------
 # Load Model and Scaler
@@ -24,8 +24,9 @@ model, scaler = load_model()
 # ---------------------------------------------------
 # Title
 # ---------------------------------------------------
-st.title("❤️ Heart Disease Prediction App")
-st.write("Enter patient details below to predict the probability of heart disease.")
+st.title("❤️ Heart Disease Prediction App for kalla praju")
+st.write("A machine learning web app that predicts heart disease risk using Logistic Regression, trained on the UCI Cleveland Heart Disease dataset.")
+st.write("lo praju correct agiro details enter mado lowde. this is not joke  .")
 
 st.divider()
 
